@@ -1,0 +1,30 @@
+* {
+  margin: 0; }
+
+.landing-page {
+  margin: 0;
+  height: 90vh;
+  background: url(../img/home.jpg);
+  background-size: cover; }
+
+/**** Landing Page ****/
+main .intro {
+  margin: 0;
+  padding: 350px 420px;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+/**** Navbar ****/
+.navbar {
+  min-height: auto; }
+  .navbar img {
+    height: 100%; }
+  .navbar .navbar-nav > li > a {
+    padding: 40px; }
+  .navbar .navbar-brand {
+    height: 100px; }
+
+/*# sourceMappingURL=main.css.map */

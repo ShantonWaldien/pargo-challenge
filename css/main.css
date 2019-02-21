@@ -17,6 +17,11 @@ main .intro {
   text-transform: uppercase;
   font-weight: 600; }
 
+section #myDIV1 {
+  display: none; }
+section #myDIV2 {
+  display: none; }
+
 /**** Navbar ****/
 .navbar {
   min-height: auto;

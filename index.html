@@ -61,13 +61,13 @@
 
         <div id="myDIV1">
 
-            This is my DIV element.
+            This is my DIV element1.
 
         </div>
 
         <div id="myDIV2">
 
-            This is my DIV element.
+            This is my DIV element2.
 
         </div>
 
@@ -76,25 +76,25 @@
     <script>
 
         function myFunction1() {
-
-          var x = document.getElementById("myDIV1");
-          if (x.style.display === "none") {
-            x.style.display = "block";
-          } else {
-            x.style.display = "none";
-          }
-
-        }
-
-        function myFunction2() {
-
-          var text1 = document.getElementById("myDIV2");
-          var text2 = document.getElementById('myDIV1')
+          var text1 = document.getElementById("myDIV1");
+          var text2 = document.getElementById('myDIV2')
           if (text1.style.display === "none") {
             text1.style.display = "block";
             text2.style.display = "none";
           } else {
             text1.style.display = "none";
+          }
+
+        }
+
+        function myFunction2() {
+          var text2 = document.getElementById("myDIV2");
+          var text1 = document.getElementById('myDIV1')
+          if (text2.style.display === "none") {
+            text2.style.display = "block";
+            text1.style.display = "none";
+          } else {
+            text2.style.display = "none";
           }
 
         }

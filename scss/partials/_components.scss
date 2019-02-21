@@ -50,3 +50,23 @@
     }
 
 }
+
+/**** Button Container ****/
+
+.button-container {
+
+    div {
+        background-color: white;
+        padding: 30px;
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-bottom: 5px solid grey; 
+        color: $otherColor;
+
+        &:hover {
+            background-color: lightgrey;
+            color: $otherColor;
+        }
+    }
+}

@@ -6,13 +6,19 @@ main {
 
     .intro {
         margin: 0;
-        padding: 200px 420px;
+        padding: 200px 520px;
         color: white;
-        font-size: 60px;
+        font-size: 50px;
         text-align: center;
         text-transform: uppercase;
         font-weight: 600;
     }
+}
+
+/**** Content Styling ****/
+
+.button-container {
+    
 }
 
 section {
@@ -24,4 +30,5 @@ section {
     #myDIV2 {
         display: none;
     }
+
 }

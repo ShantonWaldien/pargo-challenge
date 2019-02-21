@@ -16,7 +16,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
 
 </head>
 <body>
@@ -54,10 +54,14 @@
 
     </main>
 
-    <section>
+    <section class="button-container btn-group btn-group-justified">
 
-        <button onclick="myFunction1()">Im a Business</button>
-        <button onclick="myFunction2()">Im a Shopper</button>
+        <div type="button" class="btn btn-block" onclick="toggleBusiness()" style="border-right: 5px solid grey;">I'm a Business</div>
+        <div type="button" class="btn btn-block" onclick="toggleShopper()">I'm a Shopper</div>
+
+    </section>
+
+    <section class="content">
 
         <div id="myDIV1">
 
@@ -72,34 +76,7 @@
         </div>
 
     </section>
-
-    <script>
-
-        function myFunction1() {
-          var text1 = document.getElementById("myDIV1");
-          var text2 = document.getElementById('myDIV2')
-          if (text1.style.display === "none") {
-            text1.style.display = "block";
-            text2.style.display = "none";
-          } else {
-            text1.style.display = "none";
-          }
-
-        }
-
-        function myFunction2() {
-          var text2 = document.getElementById("myDIV2");
-          var text1 = document.getElementById('myDIV1')
-          if (text2.style.display === "none") {
-            text2.style.display = "block";
-            text1.style.display = "none";
-          } else {
-            text2.style.display = "none";
-          }
-
-        }
-
-    </script>
+    
     
 </body>
 </html>

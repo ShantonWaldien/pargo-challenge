@@ -3,20 +3,21 @@
 
 .landing-page {
   margin: 0;
-  height: 90vh;
+  height: 80vh;
   background: url(../img/home.jpg);
   background-size: cover; }
 
 /**** Landing Page ****/
 main .intro {
   margin: 0;
-  padding: 200px 420px;
+  padding: 200px 520px;
   color: white;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 600; }
 
+/**** Content Styling ****/
 section #myDIV1 {
   display: none; }
 section #myDIV2 {
@@ -49,5 +50,18 @@ section #myDIV2 {
       background-color: #FFF200; }
     .navbar .navbar-right .track {
       background-color: #1B75BC; }
+
+/**** Button Container ****/
+.button-container div {
+  background-color: white;
+  padding: 30px;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 5px solid grey;
+  color: black; }
+  .button-container div:hover {
+    background-color: lightgrey;
+    color: black; }
 
 /*# sourceMappingURL=main.css.map */

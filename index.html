@@ -53,6 +53,53 @@
         <h1 class="intro">The leading click and collect and returns logistics solution for your business</h1>
 
     </main>
+
+    <section>
+
+        <button onclick="myFunction1()">Im a Business</button>
+        <button onclick="myFunction2()">Im a Shopper</button>
+
+        <div id="myDIV1">
+
+            This is my DIV element.
+
+        </div>
+
+        <div id="myDIV2">
+
+            This is my DIV element.
+
+        </div>
+
+    </section>
+
+    <script>
+
+        function myFunction1() {
+
+          var x = document.getElementById("myDIV1");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+
+        }
+
+        function myFunction2() {
+
+          var text1 = document.getElementById("myDIV2");
+          var text2 = document.getElementById('myDIV1')
+          if (text1.style.display === "none") {
+            text1.style.display = "block";
+            text2.style.display = "none";
+          } else {
+            text1.style.display = "none";
+          }
+
+        }
+
+    </script>
     
 </body>
 </html>

@@ -4,6 +4,7 @@
 
 .navbar {
     min-height: auto;
+    border: none !important;
 
     img {
         height: 100%;
@@ -15,6 +16,37 @@
 
     .navbar-brand {
         height: 100px;
+        display: inline-block;
+        padding: 5px;
+
+        p {
+            display: inline;
+        }
+    }
+
+    .navbar-right {
+        font-size: 20px;
+
+        a {
+            color: black !important;
+            font-weight: 600;
+
+            &:hover {
+                background-color: black !important;
+                color: $terColor !important;
+                transition: all .3s ease-in; 
+            }
+        }
+        
+
+        .login {
+            background-color:  $primColor;
+        }
+
+        .track {
+            background-color: $secColor;
+        }
+
     }
 
 }

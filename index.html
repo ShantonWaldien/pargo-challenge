@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
@@ -31,7 +33,7 @@
 
             <div class="container-fluid">
 
-                <div class="navbar-header">
+                <div class="navbar-header navbar-left">
 
                     <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
 
@@ -54,24 +56,63 @@
 
     </main>
 
-    <section class="button-container btn-group btn-group-justified">
+    <!-- Toggle between business/shopper -->
 
-        <div type="button" class="btn btn-block" onclick="toggleBusiness()" style="border-right: 5px solid grey;">I'm a Business</div>
-        <div type="button" class="btn btn-block" onclick="toggleShopper()">I'm a Shopper</div>
+    <section class="button-container ">
+
+        <ul class="nav nav-pills nav-fill nav-group">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="toggleBusiness()" style="border-right: 5px solid grey">I'M A BUSINESS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="toggleShopper()">I'M A SHOPPER</a>
+            </li>
+
+        </ul>
 
     </section>
 
     <section class="content">
 
+        <!-- Business Content-->
+
         <div id="myDIV1">
 
-            This is my DIV element1.
+        
 
         </div>
 
+        <!-- Shopper Content -->
+
         <div id="myDIV2">
 
-            This is my DIV element2.
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odio </h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eligendi reprehenderit aperiam repellat. Velit, natus perferendis. Debitis fugit commodi, magni cumque quos quam asperiores doloribus architecto natus ab illo distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora quibusdam cupiditate. Officiis unde aspernatur error ad omnis quae impedit, et temporibus fugit accusamus ratione? Totam facere et obcaecati iusto. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod culpa maiores, error delectus eveniet inventore, illo eum distinctio, quia sunt unde beatae blanditiis nulla? Saepe nesciunt ratione cupiditate laudantium ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptate laborum nemo obcaecati? Facere reiciendis minus possimus, dolore assumenda aliquid totam sit praesentium quidem et quam iusto deserunt! Enim, quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quia odio eius quis, eveniet voluptate, architecto exercitationem vel laudantium perspiciatis delectus ab magnam vitae voluptatibus. Accusantium incidunt vitae itaque autem!</p>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-4">
+
+                        <img src="https://pargo.co.za/wp-content/themes/pargo/assets/img/icons/roads.png" alt="">
+
+                    </div>
+
+                    <div class="col-sm">
+
+                       <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</h1>
+
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nulla possimus dicta similique tempora amet, quam recusandae, veritatis reprehenderit et ut labore quisquam, quis cumque rem suscipit eos quaerat harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eum id similique quasi laborum totam cum voluptas nihil incidunt, quam error dolor libero velit, exercitationem vitae sequi, explicabo culpa neque.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
 

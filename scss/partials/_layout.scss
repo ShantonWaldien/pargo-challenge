@@ -6,7 +6,7 @@ main {
 
     .intro {
         margin: 0;
-        padding: 200px 520px;
+        padding: 200px 550px;
         color: white;
         font-size: 50px;
         text-align: center;
@@ -17,11 +17,13 @@ main {
 
 /**** Content Styling ****/
 
-.button-container {
-    
+section {
+    margin: 0;
 }
 
-section {
+
+.content {
+    margin: 50px 300px;
 
     #myDIV1 {
         display: none;
@@ -29,6 +31,30 @@ section {
 
     #myDIV2 {
         display: none;
+    }
+
+    h1 {
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .container {
+        padding: 20px 0;
+
+        img {
+            width: 100%;
+        }
+
+        .col-sm {
+            padding: 30px 0;
+
+            p {
+                padding: 20px 0;
+            }
+        }
     }
 
 }

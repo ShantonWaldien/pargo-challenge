@@ -2,8 +2,8 @@
 
 function toggleBusiness() {
 
-    var text1 = document.getElementById("myDIV1");
-    var text2 = document.getElementById('myDIV2')
+  var text1 = document.getElementById("myDIV1");
+  var text2 = document.getElementById('myDIV2')
 
     if (text1.style.display === "none") {
 
@@ -18,10 +18,11 @@ function toggleBusiness() {
 
   }
 
-  function toggleShopper() {
 
-    var text2 = document.getElementById("myDIV2");
-    var text1 = document.getElementById('myDIV1')
+function toggleShopper() {
+
+  var text2 = document.getElementById("myDIV2");
+  var text1 = document.getElementById('myDIV1')
 
     if (text2.style.display === "none") {
       
@@ -33,5 +34,6 @@ function toggleBusiness() {
       text2.style.display = "none";
 
     }
-
 }
+
+

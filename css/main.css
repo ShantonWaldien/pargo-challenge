@@ -9,8 +9,8 @@
 
 /**** Landing Page ****/
 main .intro {
-  margin: 0;
-  padding: 200px 150px;
+  max-width: 800px;
+  margin: 200px auto;
   color: white;
   font-size: 50px;
   text-align: center;
@@ -29,6 +29,33 @@ main .intro {
     padding: 28px 0; }
     .container .content #myDIV2 .container .col-sm p {
       padding: 20px 0; }
+    .container .content #myDIV2 .container .col-sm .order {
+      padding: 0; }
+    .container .content #myDIV2 .container .col-sm .pill {
+      background-color: #ddd;
+      border: none;
+      color: black;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-bottom-left-radius: 16px;
+      border-top-left-radius: 16px; }
+    .container .content #myDIV2 .container .col-sm .revert-pill {
+      background-color: #ddd;
+      border: none;
+      color: black;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-bottom-right-radius: 16px;
+      border-top-right-radius: 16px;
+      margin-left: -5px; }
   .container .content #myDIV2 .tracking h1 {
     text-align: center; }
   .container .content #myDIV2 .tracking .container .row .col-sm .progress {
@@ -86,7 +113,6 @@ main .intro {
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    background: #44484b;
     font-size: 24px;
     color: #fff;
     line-height: 135px;
@@ -95,7 +121,7 @@ main .intro {
     top: 5%;
     left: 5%; }
   .container .content #myDIV2 .tracking .container .row .col-sm .progress.blue .progress-bar {
-    border-color: #049dff; }
+    border-color: #1B75BC; }
   .container .content #myDIV2 .tracking .container .row .col-sm .progress.blue .progress-left .progress-bar {
     animation: loading-2 1.5s linear forwards 1.8s; }
   .container .content #myDIV2 .tracking .container .row .col-sm .progress.yellow .progress-bar {
